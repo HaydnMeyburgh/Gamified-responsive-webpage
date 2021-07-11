@@ -170,4 +170,37 @@ section .about {
     padding: 1rem;
 }
 
- 
+/*Team Member section*/
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.team img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.team {
+    width: 35rem;
+    height: 30rem;
+    padding-top: 2rem;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #1b03a3;
+    border-bottom: 1px solid #1b03a3;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.team p {
+    font-size: 1rem;
+}

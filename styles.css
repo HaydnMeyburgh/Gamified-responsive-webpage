@@ -87,6 +87,14 @@ nav a {
     color: black;
 }
 
+@media only screen and (max-width: 740px) {
+
+    header img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
 /*Into Section*/
 
 .intro {
@@ -113,6 +121,17 @@ section .welcome {
     padding: 30px;
 }
 
+@media only screen and (max-width: 740px) {
+    .intro {
+        height: 48rem;
+    }
+
+    section .welcome {
+        height: 30%;
+        width: 50%;
+    }
+}
+
 /*Our Mission section*/
 .about-container .image img{
     height: 50rem;
@@ -137,6 +156,16 @@ section .about {
 
 .about h2 {
     padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .about-container .image img {
+        display: none;
+    }
+
+    .about-container {
+        height: 20rem;
+    }
 }
 
 /*Product display*/
@@ -202,5 +231,36 @@ section .about {
 }
 
 .team p {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1020px) {
+    .teams {
+        display: flex;
+        flex-direction: column;
+        padding: .5rem;
+    }
+
+    .team {
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .team img {
+        height: 15rem;
+        width: 15rem;
+    }
+
+}
+
+/*Footer section*/
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+
+footer p {
     font-size: 1rem;
 }
